@@ -1,5 +1,5 @@
 name: First Workflow
-on: workflow_dispatch
+on: workflow_dispatch # workflow should manually runs
 jobs:
   first-job:
     runs-on: ubuntu-latest
@@ -8,3 +8,7 @@ jobs:
         run: echo "Hello World!"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: Introduce
+        run:  |
+          echo "Hallo my nameis salima"
+          echo "I am devops Engineer"
