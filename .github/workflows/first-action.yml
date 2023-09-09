@@ -10,5 +10,5 @@ jobs:
         run: echo "Done - bye!"
       - name: Introduce
         run:  |
-          echo "Hallo my nameis salima"
+          echo "Hallo my name is salima"
           echo "I am devops Engineer"
